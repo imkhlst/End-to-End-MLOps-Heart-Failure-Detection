@@ -10,3 +10,4 @@ catboost
 pymongo
 PyYAML
 boto3
+-e .
