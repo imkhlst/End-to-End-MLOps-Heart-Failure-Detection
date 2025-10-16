@@ -12,11 +12,12 @@ def error_message_detail(error, error_detail: str):
 
 class HeartFailureException(Exception):
     def __init__(self, error_message: str, error_detail):
-        """_summary_
+        """
+        Exceptions for Heart Failure project.
 
         Args:
-            error_message (str): _description_
-            error_detail (_type_): _description_
+            error_message (str): Error message in string format.
+            error_detail (_type_): Detail from error message.
         """
         super().__init__(error_message)
         self.error_message = error_message_detail(
