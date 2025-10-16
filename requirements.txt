@@ -3,6 +3,7 @@ numpy
 matplotlib
 seaborn
 scipy
+dill
 scikit-learn
 imblearn
 xgboost
@@ -10,4 +11,5 @@ catboost
 pymongo
 PyYAML
 boto3
+dvc
 -e .
